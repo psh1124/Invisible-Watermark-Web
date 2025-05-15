@@ -1,0 +1,127 @@
+.Fakescan_container {
+  margin-top: 9vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(315deg, #4c6498 0%, #d1ddff 80%);
+}
+
+.Fakescan_center_side {
+  margin-top: 6vh;
+  box-shadow: 1px gray;
+  width: 35vw;
+  height: 60vh;
+  padding: 4vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Fakescan_center_side h2 {
+  font-size: 4vh;
+  color: rgb(19, 28, 87);
+  margin-top: -2vh;
+  margin-bottom: 2vh;
+}
+
+.file-support-info p {
+  margin: 0.3vh 0;
+  /* color: #555; */
+  font-size: 1.8vh;
+}
+
+.file-drop-zone {
+  width: 90%;
+  border: 2px dashed #ccc;
+  padding: 5vh 2vw;
+  margin: 3vh 0 0;
+  border-radius: 1vw;
+  background-color: #fafafa;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.file-drop-zone.dragging {
+  background-color: #eef3ff;
+  border-color: #4c82fb;
+}
+
+.drop-zone-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.7vw;
+}
+
+.file-upload-button {
+  display: inline-block;
+  margin-top: 2vh;
+  background-color: rgb(67, 67, 67);
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.file-upload-button:hover {
+  background: linear-gradient(135deg, #1e3ec4, #4c82fb);
+}
+
+.file-info {
+  /* margin-top: 2vh; */
+  /* color: rgb(87, 88, 93); */
+  font-size: 2vh;
+}
+
+.action-button {
+  width: 12vw;
+  height: 6vh;
+  border: 1px solid white;
+  border-radius: 0.5vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  background-color: rgb(67, 67, 67);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.action-button:hover {
+  background: linear-gradient(135deg, #1e3ec4, #4c82fb);
+}
+
+.file-preview-container {
+  margin-top: 4vh;
+  text-align: center;
+}
+
+.file-preview-container h3 {
+  color: rgb(19, 28, 87);
+  font-size: 2.8vh;
+  margin-bottom: 2vh;
+}
+
+.file-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.7vw;
+  margin-bottom: 2vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-button {
+  padding: 1vh 2vw;
+  border: 2px solid white;
+  border-radius: 0.5vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  background-color: rgb(67, 67, 67);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.download-button:hover {
+  background: linear-gradient(135deg, #1e3ec4, #4c82fb);
+}

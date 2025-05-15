@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0a192f;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    color: #7b7dbb;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
