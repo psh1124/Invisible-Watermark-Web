@@ -1,0 +1,237 @@
+{
+  "title": "비가시성 워터마크로 지키는 안전한 콘텐츠",
+  "mainTitle": "WaterMark AI Free",
+  "subtitle": "눈에 보이지 않는 워터마크를 생성하여 콘텐츠를 보호하고 유출자를 추적할 수 있습니다.",
+  "startFree": "무료로 시작",
+  "watermarkWhatIs": "비가시성 워터마크란?",
+  "watermarkDescription": "비가시성 워터마크는 원본의 형태를 훼손하지 않으며, 유출자 추적이 가능합니다.",
+  "how": "어떻게 사용하나요?",
+  "steps": [
+    "파일 업로드",
+    "식별 정보 입력",
+    "유출된 파일 검출"
+  ],
+  "protectionItems": [
+    "기업의 정보보호",
+    "개인 데이터 보안",
+    "문서 및 파일 보호",
+    "저작권 보호",
+    "의료 기록 보안",
+    "정부 문서 보호",
+    "개인 데이터 보안",
+    "문서 및 파일 보호"
+  ],
+  "characteristics": [
+    {
+      "title": "비가시성",
+      "description": "워터마크는 원본의 형태를 훼손하지 않으며 눈에 보이지 않게 데이터를 보호합니다."
+    },
+    {
+      "title": "강한 내구성",
+      "description": "워터마크는 손상에 강하며, 시간이 지나도 유효성을 유지합니다."
+    },
+    {
+      "title": "유출 방지 효과",
+      "description": "파일이나 문서의 유출을 방지하고, 추적할 수 있습니다."
+    },
+    {
+      "title": "소유권 증명",
+      "description": "디지털 자산의 소유권을 증명할 수 있는 강력한 도구입니다."
+    },
+    {
+      "title": "유출자 추적 기능",
+      "description": "유출된 콘텐츠를 통해 유출자를 추적하고 책임을 물을 수 있습니다."
+    },
+    {
+      "title": "분쟁시 증거로 활용",
+      "description": "법적 분쟁에서 중요한 증거로 활용할 수 있습니다."
+    }
+  ],
+  "ctaTitle": "지금 가입하고 무료로 시작하세요",
+  "ctaSubtitle": "Watermark AI로 내 콘텐츠를 안전하게 보호하세요!",
+  "header": {
+    "embed": "워터마크 삽입",
+    "detect": "워터마크 검출",
+    "mypage": "마이페이지",
+    "api": "API",
+    "plan": "요금제",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "signup": "회원가입",
+    "logoutAlert": "로그아웃 되었습니다.",
+    "welcome": "{{username}}님 환영합니다!",
+    "tokenCount": "토큰: ∞개",
+    "purchaseToken": "토큰 구매하기"
+  },
+  "insertPage": {
+    "title": "워터마크 삽입",
+    "subtitle": "콘텐츠에 보이지 않는 워터마크를 삽입하세요.",
+    "minimumOneWatermark": "최소 1개의 워터마크 설명이 필요합니다.",
+    "supportedFormatsAlert": "PNG, JPG, JPEG 형식만 지원됩니다.",
+    "maxFileSizeAlert": "파일 크기는 30MB 이하여야 합니다.",
+    "detectingFace": "얼굴 인식 중입니다...",
+    "previewAlt": "미리보기 이미지",
+    "originalImage": "원본 이미지",
+    "uploadInstruction": "워터마크 검출할 파일을 첨부하세요.",
+    "uploadSubInstruction": "파일을 여기로 드래그하거나 클릭하여 업로드하세요.",
+    "selectFile": "파일 선택",
+    "resultAlt": "결과 이미지",
+    "resultImage": "워터마크 삽입 이미지",
+    "resultPlaceholder": "워터마크 결과가 여기에 표시됩니다.",
+    "downloadResult": "결과 이미지 저장",
+    "successMessage": "워터마크가 성공적으로 삽입되었습니다!",
+    "watermarkInsert": "워터마크 삽입",
+    "watermarkDescription": "워터마크 설명",
+    "watermarkDescriptionPlaceholder": "해당 워터마크에 대한 설명",
+    "delete": "삭제",
+    "maxWatermarkNotice": "동일한 주문에 최대 10개의 워터마크를 생성할 수 있습니다.",
+    "fillFileAndDescription": "파일과 워터마크 설명을 모두 입력해주세요.",
+    "noLoginInfo": "로그인 정보가 없습니다.",
+    "submit": "삽입하기",
+    "embeddingWatermark": "워터마크 삽입 중입니다..."
+  },
+  "detectPage": {
+    "title": "워터마크 검출",
+    "subtitle": "업로드된 이미지에서 워터마크를 검출합니다.",
+    "description": "유출된 파일로부터 워터마크 코드를 분석하여 유출자를 추적할 수 있습니다.",
+    "unsupportedFormatAlert": "지원되지 않는 파일 형식입니다. PNG, JPG, JPEG만 지원됩니다.",
+    "fileSizeExceedAlert": "파일 크기가 30MB를 초과합니다.",
+    "detectingFace": "얼굴 인식 중입니다...",
+    "previewAlt": "미리보기 이미지",
+    "uploadInstruction": "워터마크 검출할 파일을 첨부하세요.",
+    "uploadSubInstruction": "파일을 여기로 드래그하거나 클릭하여 업로드하세요.",
+    "selectFile": "파일 선택",
+    "supportedFilesTitle": "지원 파일 형식",
+    "table": {
+      "type": "타입",
+      "fileFormat": "파일 형식",
+      "minSize": "최소 크기",
+      "minResolution": "최소 해상도",
+      "maxSize": "최대 크기",
+      "image": "이미지"
+    },
+    "detecting": "검출 중...",
+    "vipDetecting": "VIP 검출 중...",
+    "detect": "검출하기",
+    "detectedDataFound": "검출된 데이터가 확인되었습니다.",
+    "watermarkTracker": "워터마크 추적자",
+    "detectTime": "검출 시간",
+    "watermarkHash": "워터마크 해시",
+    "insertedText": "삽입된 문구",
+    "originalFileName": "원본 파일명",
+    "restoreFail": "복원 실패 - 이 이미지는 딥페이크로 의심됩니다.",
+    "vipRestoreFeature": "VIP 워터마크 복원",
+    "moreAccurateAnalysis": "기능을 사용하면 더 정밀한 분석이 가능합니다.",
+    "tokenUsage": "1회당 토큰 2개가 소모됩니다.",
+    "vipDetectButton": "🔍 검출하기 (VIP 버전)"
+  },
+  "myPage": {
+    "title": "마이페이지",
+    "missingUserInfo": "유저 정보 누락",
+    "tokenCount": "보유 토큰: {{count}}개",
+    "apiKeyManagement": "API 키 관리",
+    "apiGuide": "API 연동 가이드",
+    "dashboard": "대시보드",
+    "accountManagement": "계정 정보 관리",
+    "contact": "문의하기",
+    "logout": "로그아웃"
+  },
+  "api": {
+    "title": "API 키 관리",
+    "createdAt": "생성일",
+    "delete": "삭제",
+    "deleteAriaLabel": "API 키 {{key}} 삭제",
+    "noKeys": "API 키가 없습니다.",
+    "addKey": "API 키 생성"
+  },
+  "plan": {
+    "title": "요금제 안내",
+    "planNames": {
+      "free": "무료 플랜",
+      "standard": "스탠다드",
+      "premium": "프리미엄"
+    },
+    "prices": {
+      "free": "0원",
+      "standard": "9,900원 / 월",
+      "premium": "29,900원 / 월"
+    },
+    "features": {
+      "free": [
+        "기본 기능 사용",
+        "월 1000 토큰 제공",
+        "기본 지원"
+      ],
+      "standard": [
+        "월 10,000 토큰",
+        "우선 지원",
+        "API 사용 가능"
+      ],
+      "premium": [
+        "무제한 토큰",
+        "전담 지원팀",
+        "추가 기능 제공"
+      ]
+    },
+    "select": "선택하기",
+    "processing": "결제 처리중...",
+    "paymentSuccess": "결제 성공! 선택한 요금제: {{planName}}",
+    "paymentFailed": "결제 실패"
+  },
+  "login": {
+    "username": "아이디",
+    "password": "비밀번호",
+    "usernamePlaceholder": "아이디를 입력하세요",
+    "passwordPlaceholder": "비밀번호를 입력하세요",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "loginButton": "로그인",
+    "notMember": "아직 Watermark AI 회원이 아닌가요?",
+    "success": "로그인 성공!",
+    "failed": "로그인 실패",
+    "connectionError": "서버와 연결할 수 없습니다.",
+    "unexpectedError": "로그인 실패: 예상치 못한 응답"
+  },
+  "signup": {
+    "title": "회원가입",
+    "username": "아이디",
+    "email": "이메일",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "checkUsername": "중복확인",
+    "checkEmail": "이메일 중복 확인",
+    "emailVerificationCode": "인증 코드를 입력하세요",
+    "verify": "확인",
+    "verificationSent": "📧 인증 코드가 이메일로 전송되었습니다.",
+    "verificationSuccess": "✅ 인증이 완료되었습니다.",
+    "verificationFail": "인증 코드가 올바르지 않습니다.",
+    "passwordRequirementsTitle": "비밀번호 요구사항:",
+    "requirementLength": "8자 이상",
+    "requirementUppercase": "대문자 포함",
+    "requirementLowercase": "소문자 포함",
+    "requirementNumber": "숫자 포함",
+    "requirementSpecialChar": "특수문자 포함",
+    "passwordsMatch": "비밀번호가 일치합니다 ✅",
+    "passwordsMismatch": "비밀번호가 일치하지 않습니다 ❌",
+    "agreeAll": "모두 동의합니다",
+    "agreeRequired1": "[필수] 이용약관 동의",
+    "agreeRequired2": "[필수] 개인정보 수집 및 이용 동의",
+    "agreeOptional": "[선택] 마케팅 정보 수신 동의",
+    "agreeTooltip": "신상품, 이벤트 등 정보를 받을 수 있어요.",
+    "signupButton": "회원가입",
+    "usernameAvailable": "사용 가능한 아이디입니다.",
+    "usernameDuplicate": "중복된 아이디입니다.",
+    "emailAvailable": "사용 가능한 이메일입니다.",
+    "emailDuplicate": "이미 등록된 이메일입니다.",
+    "invalidEmailFormat": "올바른 이메일 형식을 입력해주세요.",
+    "emailVerificationFailed": "이메일 중복 확인에 실패했습니다.",
+    "emailSendFailed": "인증 메일 전송에 실패했습니다.",
+    "requiredUsername": "아이디를 입력하세요",
+    "requiredEmail": "이메일을 입력하세요",
+    "requiredPassword": "비밀번호를 입력하세요",
+    "passwordNotMatch": "비밀번호가 일치하지 않습니다",
+    "agreeTermsRequired": "필수 약관에 동의해야 합니다",
+    "signupSuccess": "회원가입이 완료되었습니다!",
+    "signupFailed": "회원가입 실패",
+    "serverError": "서버와 연결할 수 없습니다."
+  }
+}

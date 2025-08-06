@@ -3,15 +3,9 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: linear-gradient(315deg, #4c6498 0%, #d1ddff 74%);
 }
 
 .signup-card {
-  margin: 20vh 0 10vh;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 450px;
 }

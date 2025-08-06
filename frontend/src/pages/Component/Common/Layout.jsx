@@ -1,13 +1,13 @@
-import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import "../../css/Layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className="layout">
+    <div className="page-wrapper">
       <Header />
-      <main className="main-content">{children}</main>
+      <div className="main-content" style={{ paddingTop: "7vh" }}>
+        {children}
+      </div>
       <Footer />
     </div>
   );

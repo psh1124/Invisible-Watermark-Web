@@ -1,0 +1,237 @@
+{
+    "title": "Secure Your Content with Invisible Watermark",
+    "mainTitle": "WaterMark AI Free",
+    "subtitle": "Generate invisible watermarks to protect your content and trace unauthorized leaks.",
+    "startFree": "Start for Free",
+    "watermarkWhatIs": "What is an Invisible Watermark?",
+    "watermarkDescription": "An invisible watermark protects data without altering the original and enables leak tracking.",
+    "how": "How Does It Work?",
+    "steps": [
+        "Upload File",
+        "Enter Identification Info",
+        "Detect Leaked File"
+    ],
+    "protectionItems": [
+        "Corporate Data Protection",
+        "Personal Data Security",
+        "Document & File Safety",
+        "Copyright Protection",
+        "Medical Record Security",
+        "Government Document Security",
+        "Personal Data Security",
+        "Document & File Safety"
+    ],
+    "characteristics": [
+        {
+            "title": "Invisibility",
+            "description": "The watermark protects data without visibly altering the original content."
+        },
+        {
+            "title": "High Durability",
+            "description": "Watermarks remain intact and effective over time, resistant to damage."
+        },
+        {
+            "title": "Leak Prevention",
+            "description": "Helps prevent file leakage and allows traceability of unauthorized distribution."
+        },
+        {
+            "title": "Ownership Proof",
+            "description": "Acts as solid proof of digital content ownership."
+        },
+        {
+            "title": "Leak Source Tracing",
+            "description": "Track and identify the individual responsible for content leaks."
+        },
+        {
+            "title": "Legal Evidence",
+            "description": "Can serve as legal evidence in cases of disputes or infringement."
+        }
+    ],
+    "ctaTitle": "Sign up now and start for free",
+    "ctaSubtitle": "Protect your content securely with Watermark AI!",
+    "header": {
+        "embed": "Watermark Embedding",
+        "detect": "Watermark Detection",
+        "mypage": "My Page",
+        "api": "API",
+        "plan": "Plans",
+        "login": "Login",
+        "logout": "Logout",
+        "signup": "Sign Up",
+        "logoutAlert": "You have been logged out.",
+        "welcome": "Welcome, {{username}}!",
+        "tokenCount": "Tokens: ∞",
+        "purchaseToken": "Buy Tokens"
+    },
+    "insertPage": {
+        "title": "Embed Watermark",
+        "subtitle": "Insert an invisible watermark into your content.",
+        "minimumOneWatermark": "At least one watermark description is required.",
+        "supportedFormatsAlert": "Only PNG, JPG, JPEG formats are supported.",
+        "maxFileSizeAlert": "File size must be under 30MB.",
+        "detectingFace": "Detecting face...",
+        "previewAlt": "Preview Image",
+        "originalImage": "Original Image",
+        "uploadInstruction": "Please upload a file to detect watermark.",
+        "uploadSubInstruction": "Drag & drop a file here or click to upload.",
+        "selectFile": "Select File",
+        "resultAlt": "Result Image",
+        "resultImage": "Watermarked Image",
+        "resultPlaceholder": "Watermark results will be shown here.",
+        "downloadResult": "Download Result Image",
+        "successMessage": "Watermark was successfully embedded!",
+        "watermarkInsert": "Embed Watermark",
+        "watermarkDescription": "Watermark Description",
+        "watermarkDescriptionPlaceholder": "Description for this watermark",
+        "delete": "Delete",
+        "maxWatermarkNotice": "You can create up to 10 watermarks per order.",
+        "fillFileAndDescription": "Please provide both the file and watermark descriptions.",
+        "noLoginInfo": "Login information is missing.",
+        "submit": "Embed",
+        "embeddingWatermark": "Embedding watermark..."
+    },
+    "detectPage": {
+        "title": "Watermark Detection",
+        "subtitle": "Detect watermarks in uploaded images.",
+        "description": "Analyze watermark codes from leaked files to track leak sources.",
+        "unsupportedFormatAlert": "Unsupported file format. Only PNG, JPG, and JPEG are supported.",
+        "fileSizeExceedAlert": "File size exceeds 30MB.",
+        "detectingFace": "Detecting face...",
+        "previewAlt": "Preview Image",
+        "uploadInstruction": "Attach a file to detect watermark.",
+        "uploadSubInstruction": "Drag and drop a file here or click to upload.",
+        "selectFile": "Select File",
+        "supportedFilesTitle": "Supported File Formats",
+        "table": {
+            "type": "Type",
+            "fileFormat": "File Format",
+            "minSize": "Min Size",
+            "minResolution": "Min Resolution",
+            "maxSize": "Max Size",
+            "image": "Image"
+        },
+        "detecting": "Detecting...",
+        "vipDetecting": "VIP Detecting...",
+        "detect": "Detect",
+        "detectedDataFound": "Detected data has been found.",
+        "watermarkTracker": "Watermark Tracker",
+        "detectTime": "Detection Time",
+        "watermarkHash": "Watermark Hash",
+        "insertedText": "Inserted Text",
+        "originalFileName": "Original Filename",
+        "restoreFail": "Restoration failed - This image is suspected to be deepfake.",
+        "vipRestoreFeature": "VIP Watermark Restoration",
+        "moreAccurateAnalysis": "Feature enables more accurate analysis.",
+        "tokenUsage": "Consumes 2 tokens per use.",
+        "vipDetectButton": "🔍 Detect (VIP version)"
+    },
+    "myPage": {
+        "title": "My Page",
+        "missingUserInfo": "User information missing",
+        "tokenCount": "Tokens owned: {{count}}",
+        "apiKeyManagement": "API Key Management",
+        "apiGuide": "API Integration Guide",
+        "dashboard": "Dashboard",
+        "accountManagement": "Account Management",
+        "contact": "Contact Us",
+        "logout": "Logout"
+    },
+    "api": {
+        "title": "API Key Management",
+        "createdAt": "Created At",
+        "delete": "Delete",
+        "deleteAriaLabel": "Delete API key {{key}}",
+        "noKeys": "No API keys available.",
+        "addKey": "Add API Key"
+    },
+    "plan": {
+        "title": "Pricing Plans",
+        "planNames": {
+            "free": "Free Plan",
+            "standard": "Standard",
+            "premium": "Premium"
+        },
+        "prices": {
+            "free": "Free",
+            "standard": "$9.90 / month",
+            "premium": "$29.90 / month"
+        },
+        "features": {
+            "free": [
+                "Basic features",
+                "1,000 tokens/month",
+                "Basic support"
+            ],
+            "standard": [
+                "10,000 tokens/month",
+                "Priority support",
+                "API access"
+            ],
+            "premium": [
+                "Unlimited tokens",
+                "Dedicated support",
+                "Extra features"
+            ]
+        },
+        "select": "Select",
+        "processing": "Processing...",
+        "paymentSuccess": "Payment successful! Selected plan: {{planName}}",
+        "paymentFailed": "Payment failed"
+    },
+    "login": {
+        "username": "Username",
+        "password": "Password",
+        "usernamePlaceholder": "Enter your username",
+        "passwordPlaceholder": "Enter your password",
+        "forgotPassword": "Forgot your password?",
+        "loginButton": "Log In",
+        "notMember": "Not a member of Watermark AI yet?",
+        "success": "Login successful!",
+        "failed": "Login failed",
+        "connectionError": "Unable to connect to the server.",
+        "unexpectedError": "Login failed: Unexpected response"
+    },
+    "signup": {
+        "title": "Sign Up",
+        "username": "Username",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "checkUsername": "Check",
+        "checkEmail": "Check Email",
+        "emailVerificationCode": "Enter verification code",
+        "verify": "Verify",
+        "verificationSent": "📧 A verification code has been sent to your email.",
+        "verificationSuccess": "✅ Email verification successful.",
+        "verificationFail": "Invalid verification code.",
+        "passwordRequirementsTitle": "Password Requirements:",
+        "requirementLength": "At least 8 characters",
+        "requirementUppercase": "At least one uppercase letter",
+        "requirementLowercase": "At least one lowercase letter",
+        "requirementNumber": "At least one number",
+        "requirementSpecialChar": "At least one special character",
+        "passwordsMatch": "Passwords match ✅",
+        "passwordsMismatch": "Passwords do not match ❌",
+        "agreeAll": "Agree to all",
+        "agreeRequired1": "[Required] Agree to Terms of Service",
+        "agreeRequired2": "[Required] Agree to Privacy Policy",
+        "agreeOptional": "[Optional] Agree to receive marketing emails",
+        "agreeTooltip": "You can receive updates on new products and events.",
+        "signupButton": "Sign Up",
+        "usernameAvailable": "This username is available.",
+        "usernameDuplicate": "This username is already taken.",
+        "emailAvailable": "This email is available.",
+        "emailDuplicate": "This email is already registered.",
+        "invalidEmailFormat": "Please enter a valid email format.",
+        "emailVerificationFailed": "Failed to verify email.",
+        "emailSendFailed": "Failed to send verification email.",
+        "requiredUsername": "Please enter a username.",
+        "requiredEmail": "Please enter an email.",
+        "requiredPassword": "Please enter a password.",
+        "passwordNotMatch": "Passwords do not match.",
+        "agreeTermsRequired": "You must agree to the required terms.",
+        "signupSuccess": "Signup completed successfully!",
+        "signupFailed": "Signup failed",
+        "serverError": "Unable to connect to the server."
+    }
+}

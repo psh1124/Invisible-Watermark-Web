@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Layout from './Layout';
 import '../../css/SignupPage.css';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({
@@ -72,7 +73,6 @@ const SignupPage = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  //아이디 중복확인
   const handleUsernameCheck = async () => {
     const response = await fetch(`${import.meta.env.VITE_API_BASE}/4768b05aa6df12a2ddad4c3a58ad2da2/ValidateUserName`, {
       method: 'POST',
@@ -85,7 +85,6 @@ const SignupPage = () => {
     setUsernameAvailable(response.ok);
   };
 
-  //이메일 중복확인 하고 200이면 코드 날라가는거
   const handleEmailCheck = async () => {
     try {
       if (!formData.email) {
@@ -139,7 +138,6 @@ const SignupPage = () => {
     }
   };
 
-  //이메일 코드 인증확인
   const handleVerifyEmailCode = async () => {
     try {
       const response = await fetch(`${import.meta.env.VITE_API_BASE}/4768b05aa6df12a2ddad4c3a58ad2da2/CheckEmailCode`, {
@@ -167,8 +165,6 @@ const SignupPage = () => {
     }
   };
 
-
-  //회원가입
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -179,7 +175,6 @@ const SignupPage = () => {
       setTimeout(() => setHighlightRequired(false), 1000);
       return;
     }
-    // 약관 통과
     try {
       const response = await fetch(`${import.meta.env.VITE_API_BASE}/4768b05aa6df12a2ddad4c3a58ad2da2/SignUp`, {
         method: 'POST',
@@ -210,7 +205,6 @@ const SignupPage = () => {
         <div className="signup-card">
           <h2>회원가입</h2>
           <form onSubmit={handleSubmit}>
-            {/* 아이디 */}
             <div className="input-group">
               <label htmlFor="username">아이디</label>
               <div className="input-wrapper">
@@ -229,7 +223,6 @@ const SignupPage = () => {
               {errors.username && <p className="error-message">{errors.username}</p>}
             </div>
 
-            {/* 이메일 */}
             <div className="input-group">
               <label htmlFor="email">이메일</label>
               <div className="input-wrapper">
@@ -239,8 +232,8 @@ const SignupPage = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  disabled={emailVerified} // 인증 완료되면 비활성화
-                  style={{ color: emailVerified ? '#999' : '#000' }} // 색깔 어둡게 처리
+                  disabled={emailVerified}
+                  style={{ color: emailVerified ? '#999' : '#000' }}
                 />
                 <button type="button" onClick={handleEmailCheck} disabled={emailVerified}>이메일 중복 확인</button>
               </div>
@@ -249,7 +242,6 @@ const SignupPage = () => {
               {errors.email && <p className="error-message">{errors.email}</p>}
             </div>
 
-            {/* 이메일 인증 */}
             {emailVerificationSent && (
               <>
                 <div className="verification-code-group">
@@ -260,8 +252,8 @@ const SignupPage = () => {
                     placeholder=" 인증 코드를 입력하세요"
                     value={emailVerificationCode}
                     onChange={(e) => setEmailVerificationCode(e.target.value)}
-                    disabled={emailVerified} // 인증 완료되면 비활성화
-                    style={{ color: emailVerified ? '#999' : '#000' }} // 색깔 어둡게 처리
+                    disabled={emailVerified}
+                    style={{ color: emailVerified ? '#999' : '#000' }}
                   />
                   <button type="button" onClick={handleVerifyEmailCode} disabled={emailVerified}>확인</button>
                 </div>
@@ -274,7 +266,6 @@ const SignupPage = () => {
               </>
             )}
 
-            {/* 비밀번호 */}
             <div className="input-group">
               <label htmlFor="password">비밀번호</label>
               <div className="password-field">
@@ -292,7 +283,6 @@ const SignupPage = () => {
               {errors.password && <p className="error-message">{errors.password}</p>}
             </div>
 
-            {/* 비밀번호 요구사항 */}
             <div className="password-requirements">
               <p className='password-requirements'>비밀번호 요구사항:</p>
               <ul>
@@ -314,7 +304,6 @@ const SignupPage = () => {
               </ul>
             </div>
 
-            {/* 비밀번호 확인 */}
             <div className="input-group">
               <label htmlFor="confirmPassword">비밀번호 확인</label>
               <div className="password-field">
@@ -338,7 +327,6 @@ const SignupPage = () => {
               {errors.confirmPassword && <p className="error-message">{errors.confirmPassword}</p>}
             </div>
 
-            {/* 약관 동의 */}
             <div className={`checkbox-group ${highlightRequired ? 'shake-highlight' : ''}`}>
               <div className="checkbox-item">
                 <input type="checkbox" id="selectAll" name="terms.all" checked={formData.terms.all} onChange={handleChange} />

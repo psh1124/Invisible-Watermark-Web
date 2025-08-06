@@ -1,0 +1,127 @@
+.plan-container {
+  max-width: 960px;
+  margin: 2rem auto 4rem;
+  padding: 0 1rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+.plan-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #222;
+  font-weight: 700;
+}
+
+.plan-cards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.plan-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 2rem 1.5rem;
+  flex: 1 1 280px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.plan-card.selected,
+.plan-card:hover {
+  box-shadow: 0 6px 20px rgba(30, 144, 255, 0.4);
+  transform: translateY(-6px);
+}
+
+.plan-name {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+  color: #1e90ff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.plan-price {
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.plan-features {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  align-self: stretch;
+  margin-bottom: 2rem;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.plan-select-btn {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.85rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-weight: 600;
+}
+
+.plan-select-btn:hover:not(:disabled) {
+  background-color: #0d6efd;
+}
+
+.plan-select-btn:disabled {
+  background-color: #a0c4ff;
+  cursor: not-allowed;
+}
+
+.plan-message {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: #1e90ff;
+  user-select: none;
+}
+
+/* 반응형 */
+
+@media (max-width: 768px) {
+  .plan-container {
+    max-width: 90vw;
+  }
+
+  .plan-card {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .plan-title {
+    font-size: 1.8rem;
+  }
+
+  .plan-features {
+    font-size: 0.9rem;
+  }
+
+  .plan-select-btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
