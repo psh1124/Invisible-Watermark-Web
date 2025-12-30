@@ -1,12 +1,42 @@
-# React + Vite
+# Invisible Watermark Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+웹 기반 **비가시성(보이지 않는) 워터마크 삽입 및 검출 서비스**의 프론트엔드 프로젝트입니다.  
+사용자는 이미지를 업로드하여 워터마크를 삽입하거나, 워터마크가 포함된 이미지를 검출할 수 있습니다.
 
-Currently, two official plugins are available:
+> ⚠️ 본 저장소는 **프론트엔드 구현을 중심으로 관리**되며,  
+> 워터마크 처리 로직 및 서버는 **외부 백엔드 API**를 사용합니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 프로젝트 개요
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 이미지 저작권 보호를 위한 **비가시성 워터마크 웹 서비스**
+- 사용자 친화적인 UI를 통해 워터마크 삽입·검출 기능 제공
+- 프론트엔드와 백엔드가 분리된 구조 (API 기반 통신)
+
+---
+
+## ✨ 주요 기능
+
+- 이미지 업로드 및 미리보기
+- 비가시성 워터마크 삽입 요청
+- 워터마크 검출 요청
+- 처리 결과 이미지 및 상태 표시
+- 반응형 UI 구성
+
+---
+
+## 🧑‍💻 담당 역할
+
+- **프론트엔드 전체 구현**
+  - 화면 UI/UX 설계
+  - 이미지 업로드 및 결과 표시
+  - 백엔드 API 연동
+- **백엔드**
+  - 워터마크 삽입·검출 알고리즘 및 서버 로직은 **외부에서 관리**
+  - 본 저장소에서는 백엔드 내부 구현을 다루지 않음
+
+---
+
+## 🗂️ 프로젝트 구조
+
