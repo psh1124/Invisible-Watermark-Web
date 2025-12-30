@@ -39,19 +39,15 @@
 
 ## 🗂️ 프로젝트 구조
 
+```bash
 Invisible-Watermark-Web/
-
 ├── frontend/ # 프론트엔드 소스 코드
-
 ├── node_modules/ # Node.js 패키지
-
 ├── index.py # 백엔드 서버 실행 파일 (참고용)
-
 ├── package.json # 프로젝트 의존성 및 스크립트
-
 ├── package-lock.json # 의존성 버전 고정
-
 └── .vscode/ # 개발 환경 설정
+```
 
 ---
 
